@@ -1,4 +1,4 @@
-# Content Marketing Agency CRM Portal
+# Content Marketing Agency CRM Portal 📊
 
 This project is a comprehensive CRM portal for content marketing agencies built with React Admin. It provides tools for managing clients, projects, content pieces, and team members with role-based access control.
 
@@ -41,10 +41,10 @@ This project is a comprehensive CRM portal for content marketing agencies built 
   - Recharts
 
 - **Backend**:
-  - JSON Server (simulated REST API)
-  - Local storage
+  - JSON Server
   - Express
   - JWT
+  - Local storage
 
 ## Project Structure
 
@@ -80,7 +80,7 @@ ra-server/               # JSON Server backend
    ```bash
    npm install
    ```
-3. Create .env file:
+3. Create .env file inside ra-server:
     ```bash
     SECRET_KEY=
     AUTH_PORT=
@@ -107,11 +107,16 @@ ra-server/               # JSON Server backend
    ```bash
    npm install
    ```
-3. Start development server:
+3. Create a .env file inside ra-client:
+    ```bash
+    VITE_JSON_SERVER_URL=
+    VITE_AUTH_SERVER_URL=
+    ```
+4. Start development server:
    ```bash
    npm run dev
    ```
-4. Access the application at http://localhost:5173
+5. Access the application at http://localhost:5173
 
 ## Usage
 
