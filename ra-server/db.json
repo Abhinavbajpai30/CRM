@@ -1,0 +1,555 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin_user",
+      "password": "password123",
+      "fullName": "Admin User",
+      "email": "admin@agency.com",
+      "role": "Admin",
+      "avatar": "https://i.pravatar.cc/150?u=admin_user"
+    },
+    {
+      "id": 2,
+      "username": "sarah_strategist",
+      "password": "password123",
+      "fullName": "Sarah Connor",
+      "email": "sarah.connor@agency.com",
+      "role": "Content Strategist",
+      "avatar": "https://i.pravatar.cc/150?u=sarah_strategist"
+    },
+    {
+      "id": 3,
+      "username": "john_strategist",
+      "password": "password123",
+      "fullName": "John Doe",
+      "email": "john.doe@agency.com",
+      "role": "Content Strategist",
+      "avatar": "https://i.pravatar.cc/150?u=john_strategist"
+    },
+    {
+      "id": 4,
+      "username": "mike_editor",
+      "password": "password123",
+      "fullName": "Mike Ross",
+      "email": "mike.ross@agency.com",
+      "role": "Editor",
+      "avatar": "https://i.pravatar.cc/150?u=mike_editor"
+    },
+    {
+      "id": 5,
+      "username": "lisa_editor",
+      "password": "password123",
+      "fullName": "Lisa Ray",
+      "email": "lisa.ray@agency.com",
+      "role": "Editor",
+      "avatar": "https://i.pravatar.cc/150?u=lisa_ray"
+    },
+    {
+      "id": 6,
+      "username": "peter_writer",
+      "password": "password123",
+      "fullName": "Peter Quill",
+      "email": "peter.quill@agency.com",
+      "role": "Writer",
+      "avatar": "https://i.pravatar.cc/150?u=peter_writer"
+    },
+    {
+      "id": 7,
+      "username": "anna_writer",
+      "password": "password123",
+      "fullName": "Anna Scott",
+      "email": "anna.scott@agency.com",
+      "role": "Writer",
+      "avatar": "https://i.pravatar.cc/150?u=anna_writer"
+    },
+    {
+      "id": 8,
+      "username": "david_writer",
+      "password": "password123",
+      "fullName": "David Kim",
+      "email": "david.kim@agency.com",
+      "role": "Writer",
+      "avatar": "https://i.pravatar.cc/150?u=david_kim"
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "name": "Tech Solutions Inc.",
+      "industry": "Technology",
+      "contactPerson": "Alice Wonderland",
+      "contactEmail": "alice@techsolutions.com",
+      "contactPhone": "555-0101",
+      "goals": ["Increase brand awareness", "Generate B2B leads"],
+      "strategist": 2,
+      "createdDate": "2024-01-15T10:00:00.000Z",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "name": "GreenLeaf Organics",
+      "industry": "E-commerce / Retail",
+      "contactPerson": "Bob The Builder",
+      "contactEmail": "bob@greenleaf.com",
+      "contactPhone": "555-0102",
+      "goals": ["Drive online sales", "Educate consumers on organic products"],
+      "strategist": 3,
+      "createdDate": "2024-03-01T14:30:00.000Z",
+      "isActive": true
+    },
+    {
+      "id": 3,
+      "name": "Future Finance Co.",
+      "industry": "Finance",
+      "contactPerson": "Carol Danvers",
+      "contactEmail": "carol@futurefinance.com",
+      "contactPhone": "555-0103",
+      "goals": ["Establish thought leadership", "Attract new investors"],
+      "strategist": 2,
+      "createdDate": "2023-11-10T09:00:00.000Z",
+      "isActive": false
+    },
+    {
+      "id": 4,
+      "name": "Healthy Living Foods",
+      "industry": "Food & Beverage",
+      "contactPerson": "Diana Prince",
+      "contactEmail": "diana@healthyliving.com",
+      "contactPhone": "555-0104",
+      "goals": ["Promote new product line", "Increase social media engagement", "Build community around healthy eating"],
+      "strategist": 3,
+      "createdDate": "2024-05-20T11:00:00.000Z",
+      "isActive": true
+    },
+    {
+      "id": 5,
+      "name": "EduGrowth Platforms",
+      "industry": "Education Technology",
+      "contactPerson": "Edward Nygma",
+      "contactEmail": "edward@edugrowth.com",
+      "contactPhone": "555-0105",
+      "goals": ["Generate leads for SaaS platform", "Position as an innovator in EdTech", "Increase webinar attendance"],
+      "strategist": 2,
+      "createdDate": "2024-08-01T09:30:00.000Z",
+      "isActive": true
+    },
+    {
+      "id": 6,
+      "name": "Artisan Crafts Co.",
+      "industry": "Retail / Handmade Goods",
+      "contactPerson": "Selina Kyle",
+      "contactEmail": "selina@artisancrafts.com",
+      "contactPhone": "555-0106",
+      "goals": ["Drive traffic to online store", "Highlight artisan stories", "Grow email subscriber list"],
+      "strategist": 3,
+      "createdDate": "2023-09-15T16:15:00.000Z",
+      "isActive": false
+    },
+    {
+      "id": 7,
+      "name": "Sustainable Futures Initiative",
+      "industry": "Non-Profit / Environmental",
+      "contactPerson": "Arthur Curry",
+      "contactEmail": "arthur@sfi.org",
+      "contactPhone": "555-0107",
+      "goals": ["Raise awareness for environmental causes", "Increase donations", "Recruit volunteers"],
+      "strategist": 2,
+      "createdDate": "2025-01-10T10:20:00.000Z",
+      "isActive": true
+    },
+    {
+      "id": 8,
+      "name": "Innovate AI Labs",
+      "industry": "Artificial Intelligence Research",
+      "contactPerson": "Victor Stone",
+      "contactEmail": "victor@innovateai.com",
+      "contactPhone": "555-0108",
+      "goals": ["Publish research findings", "Attract top AI talent", "Secure research grants"],
+      "strategist": 3,
+      "createdDate": "2024-11-05T14:00:00.000Z",
+      "isActive": true
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "clientId": 1,
+      "name": "Q3 Tech Blog Campaign",
+      "description": "Series of blog posts on emerging AI trends.",
+      "status": "In Progress",
+      "startDate": "2025-04-01T09:00:00.000Z",
+      "dueDate": "2025-06-30T17:00:00.000Z",
+      "completionDate": null
+    },
+    {
+      "id": 2,
+      "clientId": 1,
+      "name": "Cybersecurity Whitepaper",
+      "description": "In-depth whitepaper on data protection strategies.",
+      "status": "Pending",
+      "startDate": "2025-07-01T09:00:00.000Z",
+      "dueDate": "2025-08-31T17:00:00.000Z",
+      "completionDate": null
+    },
+    {
+      "id": 3,
+      "clientId": 2,
+      "name": "Organic Living Social Media",
+      "description": "Monthly social media content creation and management.",
+      "status": "Completed",
+      "startDate": "2025-02-01T09:00:00.000Z",
+      "dueDate": "2025-04-30T17:00:00.000Z",
+      "completionDate": "2025-04-28T15:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "clientId": 2,
+      "name": "Healthy Recipes Blog Series",
+      "description": "Weekly blog posts with organic recipes.",
+      "status": "Published",
+      "startDate": "2025-01-10T09:00:00.000Z",
+      "dueDate": "2025-03-31T17:00:00.000Z",
+      "completionDate": "2025-03-25T10:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "clientId": 3,
+      "name": "Investment Insights Newsletter",
+      "description": "Bi-weekly newsletter for investors.",
+      "status": "In Progress",
+      "startDate": "2025-05-15T09:00:00.000Z",
+      "dueDate": "2025-12-31T17:00:00.000Z",
+      "completionDate": null
+    }
+  ],
+  "contentPieces": [
+    {
+      "id": 1,
+      "projectId": 1,
+      "title": "The Future of AI in Business Automation",
+      "type": "Blog Post",
+      "status": "In Review",
+      "writerId": 6,
+      "editorId": 4,
+      "content": "Artificial Intelligence is no longer a futuristic concept but a present-day reality transforming industries. This article explores... Initial draft content focusing on key areas like machine learning, NLP, and robotics in automation.",
+      "submissionDate": "2025-05-20T10:00:00.000Z",
+      "dueDate": "2025-05-25T17:00:00.000Z",
+      "versions": [
+        {
+          "version": 1,
+          "content": "Initial draft content...",
+          "timestamp": "2025-05-18T14:00:00.000Z",
+          "editorId": null
+        },
+        {
+          "version": 2,
+          "content": "Artificial Intelligence is no longer a futuristic concept but a present-day reality transforming industries. This article explores... Initial draft content focusing on key areas like machine learning, NLP, and robotics in automation.",
+          "timestamp": "2025-05-20T09:50:00.000Z",
+          "editorId": null
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "projectId": 1,
+      "title": "Top 5 Machine Learning Applications for SMEs",
+      "type": "Article",
+      "status": "In Progress",
+      "writerId": 6,
+      "editorId": null,
+      "content": "Draft content outline: Introduction to ML, Application 1 details, Application 2 details...",
+      "submissionDate": null,
+      "dueDate": "2025-06-10T17:00:00.000Z",
+      "versions": [
+        {
+          "version": 1,
+          "content": "Initial outline...",
+          "timestamp": "2025-05-26T11:00:00.000Z",
+          "editorId": null
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "projectId": 3,
+      "title": "Why Organic Cotton is Better for You",
+      "type": "Social Media Post",
+      "status": "Approved",
+      "writerId": 8,
+      "editorId": 5,
+      "content": "🌿 Did you know organic cotton is grown without harmful pesticides? Making the switch is kinder to your skin and the planet! #OrganicLiving #SustainableFashion",
+      "submissionDate": "2025-03-05T10:00:00.000Z",
+      "dueDate": "2025-03-04T17:00:00.000Z",
+      "versions": [
+        {
+          "version": 1,
+          "content": "Draft: Organic cotton benefits...",
+          "timestamp": "2025-03-04T10:00:00.000Z",
+          "editorId": null
+        },
+        {
+          "version": 2,
+          "content": "🌿 Did you know organic cotton is grown without harmful pesticides? Making the switch is kinder to your skin and the planet! #OrganicLiving #SustainableFashion",
+          "timestamp": "2025-03-05T09:50:00.000Z",
+          "editorId": null
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "projectId": 4,
+      "title": "Easy Weeknight Dinner: Quinoa Salad",
+      "type": "Blog Post",
+      "status": "Published",
+      "writerId": 6,
+      "editorId": 4,
+      "content": "Looking for a healthy and quick meal? Try this delicious quinoa salad...",
+      "submissionDate": "2025-02-10T10:00:00.000Z",
+      "dueDate": "2025-02-09T17:00:00.000Z",
+      "versions": [
+        {
+          "version": 1,
+          "content": "Recipe draft content...",
+          "timestamp": "2025-02-08T12:00:00.000Z",
+          "editorId": null
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "projectId": 5,
+      "title": "Market Watch: May 2025 Highlights",
+      "type": "Article",
+      "status": "Submitted for Review",
+      "writerId": 7,
+      "editorId": 5,
+      "content": "This month saw significant shifts in the tech sector and commodities...",
+      "submissionDate": "2025-05-27T16:00:00.000Z",
+      "dueDate": "2025-05-28T17:00:00.000Z",
+      "versions": [
+        {
+          "version": 1,
+          "content": "Draft of market watch...",
+          "timestamp": "2025-05-26T18:00:00.000Z",
+          "editorId": null
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "projectId": 2,
+      "title": "Data Breach Prevention Tactics for 2025",
+      "type": "Article",
+      "status": "Requires Revision",
+      "writerId": 7,
+      "editorId": 4,
+      "content": "Content needs more statistics and actionable advice. Current draft is too generic.",
+      "submissionDate": "2025-05-15T11:00:00.000Z",
+      "dueDate": "2025-05-14T17:00:00.000Z",
+      "versions": [
+        {
+          "version": 1,
+          "content": "Initial draft on data breaches.",
+          "timestamp": "2025-05-14T09:00:00.000Z",
+          "editorId": null
+        },
+        {
+          "version": 2,
+          "content": "ontent needs more statistics and actionable advice. Current draft is too generic.",
+          "timestamp": "2025-05-15T10:50:00.000Z",
+          "editorId": null,
+          "feedback": "Needs more data points and clearer takeaways for businesses."
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Draft 'AI in Business' blog post",
+      "description": "Write the first draft for the 'Future of AI in Business Automation' blog post.",
+      "assigneeId": 6,
+      "projectId": 1,
+      "contentPieceId": 1,
+      "dueDate": "2025-05-20T17:00:00.000Z",
+      "status": "Completed",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "title": "Review 'AI in Business' blog post",
+      "description": "Review Peter's draft and provide feedback.",
+      "assigneeId": 4,
+      "projectId": 1,
+      "contentPieceId": 1,
+      "dueDate": "2025-05-23T17:00:00.000Z",
+      "status": "In Progress",
+      "priority": "High"
+    },
+    {
+      "id": 3,
+      "title": "Outline 'ML Applications' article",
+      "description": "Create a detailed outline for the 'Top 5 Machine Learning Applications for SMEs' article.",
+      "assigneeId": 6,
+      "projectId": 1,
+      "contentPieceId": 2,
+      "dueDate": "2025-06-01T17:00:00.000Z",
+      "status": "To Do",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "title": "Finalize Q2 social media calendar for GreenLeaf",
+      "description": "Confirm all posts and schedule them.",
+      "assigneeId": 3,
+      "projectId": 3,
+      "contentPieceId": null,
+      "dueDate": "2025-03-15T17:00:00.000Z",
+      "status": "Completed",
+      "priority": "High"
+    },
+    {
+      "id": 5,
+      "title": "Write 'Market Watch May' article",
+      "description": "Compile and write the article for May market highlights.",
+      "assigneeId": 7,
+      "projectId": 5,
+      "contentPieceId": 5,
+      "dueDate": "2025-05-28T17:00:00.000Z",
+      "status": "Completed",
+      "priority": "High"
+    },
+    {
+      "id": 6,
+      "title": "Review 'Market Watch May' article",
+      "description": "Edit and approve the May market watch article.",
+      "assigneeId": 5,
+      "projectId": 5,
+      "contentPieceId": 5,
+      "dueDate": "2025-05-30T17:00:00.000Z",
+      "status": "To Do",
+      "priority": "High"
+    },
+    {
+      "id": 7,
+      "title": "Revise 'Data Breach Prevention' article",
+      "description": "Incorporate editor feedback and resubmit.",
+      "assigneeId": 7,
+      "projectId": 2,
+      "contentPieceId": 6,
+      "dueDate": "2025-06-05T17:00:00.000Z",
+      "status": "To Do",
+      "priority": "Medium"
+    },
+    {
+      "id": 8,
+      "title": "Client Follow-up: Tech Solutions Inc.",
+      "description": "Schedule a check-in call with Alice Wonderland.",
+      "assigneeId": 2,
+      "projectId": null,
+      "contentPieceId": null,
+      "dueDate": "2025-06-03T17:00:00.000Z",
+      "status": "To Do",
+      "priority": "Medium"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "userId": 4,
+      "message": "Peter Quill submitted 'The Future of AI in Business Automation' for review.",
+      "type": "New Submission",
+      "isRead": false,
+      "createdAt": "2025-05-20T10:05:00.000Z",
+      "link": "/contentPieces/1/show"
+    },
+    {
+      "id": 2,
+      "userId": 6,
+      "message": "Your article 'Easy Weeknight Dinner: Quinoa Salad' has been published.",
+      "type": "Content Approved",
+      "isRead": true,
+      "createdAt": "2025-02-15T09:10:00.000Z",
+      "link": "/contentPieces/4/show"
+    },
+    {
+      "id": 3,
+      "userId": 5,
+      "message": "Anna Scott submitted 'Market Watch: May 2025 Highlights' for review.",
+      "type": "New Submission",
+      "isRead": false,
+      "createdAt": "2025-05-27T16:05:00.000Z",
+      "link": "/contentPieces/5/show"
+    },
+    {
+      "id": 4,
+      "userId": 7,
+      "message": "Task 'Revise Data Breach Prevention article' assigned to you.",
+      "type": "Task Assigned",
+      "isRead": false,
+      "createdAt": "2025-05-17T10:30:00.000Z",
+      "link": "/tasks/7/show"
+    },
+    {
+      "id": 5,
+      "userId": 2,
+      "message": "Project 'Q3 Tech Blog Campaign' status changed to In Progress.",
+      "type": "Project Update",
+      "isRead": true,
+      "createdAt": "2025-04-01T09:05:00.000Z",
+      "link": "/projects/1/show"
+    },
+    {
+      "id": 6,
+      "userId": 7,
+      "message": "Feedback provided on 'Data Breach Prevention Tactics for 2025'. Revision required.",
+      "type": "Review Complete",
+      "isRead": false,
+      "createdAt": "2025-05-17T10:00:00.000Z",
+      "link": "/contentPieces/6/show"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "contentPieceId": 1,
+      "userId": 4,
+      "comment": "Great start, Peter! Could you add a section on the ethical implications of AI in automation?",
+      "timestamp": "2025-05-21T11:00:00.000Z",
+      "parentId": null
+    },
+    {
+      "id": 2,
+      "contentPieceId": 1,
+      "userId": 6,
+      "comment": "Thanks, Mike! Good point, I'll work on adding that.",
+      "timestamp": "2025-05-21T14:30:00.000Z",
+      "parentId": 1
+    },
+    {
+      "id": 3,
+      "contentPieceId": 6,
+      "userId": 4,
+      "comment": "Anna, please include more recent statistics from Q1 2025 if possible. Also, the tone is a bit academic; let's make it more accessible for business owners.",
+      "timestamp": "2025-05-17T09:50:00.000Z",
+      "parentId": null
+    },
+    {
+      "id": 4,
+      "contentPieceId": 5,
+      "userId": 3,
+      "comment": "Looks good, Anna. Sarah, can you confirm if this aligns with Future Finance's latest communication strategy?",
+      "timestamp": "2025-05-28T09:00:00.000Z",
+      "parentId": null
+    },
+    {
+      "id": 5,
+      "contentPieceId": 5,
+      "userId": 2,
+      "comment": "Yes, John, this aligns well. Approved from my end once Lisa gives the final go-ahead.",
+      "timestamp": "2025-05-28T10:15:00.000Z",
+      "parentId": 4
+    }
+  ]
+}
